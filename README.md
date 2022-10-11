@@ -21,3 +21,6 @@ Run commands
 2) ```yarn install```
 
 3) ```yarn run dev```
+
+## Deploy Vercel
+https://amazon-2-rust.vercel.app/
