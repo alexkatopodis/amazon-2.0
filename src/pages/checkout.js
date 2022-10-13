@@ -31,14 +31,7 @@ const Checkout = () => {
             {items.map((item, idx) => (
               <CheckoutProduct
                 key={idx}
-                id={item.id}
-                title={item.title}
-                price={item.price}
-                description={item.description}
-                category={item.category}
-                image={item.image}
-                hasPrime={item.hasPrime}
-                rating={item.rating}
+                {...item}
               />
             ))}
           </div>
